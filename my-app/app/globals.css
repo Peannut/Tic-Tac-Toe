@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.gameboard{
+  width: 300px;
+  height: 300px;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square{
+
+  width: 100px;
+  height: 100px;
+  border: solid 2px black;
+  box-sizing: border-box;
+}
